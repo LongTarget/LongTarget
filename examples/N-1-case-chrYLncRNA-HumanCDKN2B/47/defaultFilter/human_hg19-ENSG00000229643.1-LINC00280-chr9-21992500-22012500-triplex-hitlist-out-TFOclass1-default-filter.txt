@@ -1,0 +1,25 @@
+browser position chr9:21994185-22009258
+browser hide all
+browser pack refGene encodeRegions
+browser full altGraph
+#  300 base wide bar graph, ausoScale is on by default == graphing
+#  limits will dynamically change to always show full range of data
+#  in veiwing window, priority = 20 position this as the second graph
+#  Note, zero-relative, halp-open coordinate system in use for bedGraph format
+track type=bedGraph name='LINC00280 (1X)' description='15-50' visibility=full color=200,100,0 altColor=0,100,200 priority=20
+chr9	21994185	21994185	0
+chr9	21994185	21994243	1
+chr9	21994243	21994247	2
+chr9	21994247	21994298	1
+chr9	21994298	21994352	0
+chr9	21994352	21994409	1
+chr9	21994409	21994457	0
+chr9	21994457	21994516	1
+chr9	21994516	21994580	0
+chr9	21994580	21994581	1
+chr9	21994581	21994651	3
+chr9	21994651	21995149	0
+chr9	21995149	21995214	1
+chr9	21995214	21996156	0
+chr9	21996156	21996223	1
+chr9	21996223	22009258	0

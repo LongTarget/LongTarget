@@ -1,0 +1,29 @@
+browser position chr1:123906234-123908302
+browser hide all
+browser pack refGene encodeRegions
+browser full altGraph
+#  300 base wide bar graph, ausoScale is on by default == graphing
+#  limits will dynamically change to always show full range of data
+#  in veiwing window, priority = 20 position this as the second graph
+#  Note, zero-relative, halp-open coordinate system in use for bedGraph format
+track type=bedGraph name='ENSG00000260633.1_Marmoset (1X)' description='15-50' visibility=full color=200,100,0 altColor=0,100,200 priority=20
+chr1	123906234	123906234	0
+chr1	123906234	123906235	6
+chr1	123906235	123906236	13
+chr1	123906236	123906237	16
+chr1	123906237	123906238	19
+chr1	123906236	123906239	19
+chr1	123906239	123906240	22
+chr1	123906240	123906241	25
+chr1	123906241	123906242	26
+chr1	123906242	123906243	29
+chr1	123906243	123906247	32
+chr1	123906247	123906310	35
+chr1	123906310	123906312	33
+chr1	123906312	123906314	30
+chr1	123906314	123906316	28
+chr1	123906316	123906318	22
+chr1	123906318	123906320	16
+chr1	123906320	123906321	9
+chr1	123906321	123906322	3
+chr1	123906322	123908302	0

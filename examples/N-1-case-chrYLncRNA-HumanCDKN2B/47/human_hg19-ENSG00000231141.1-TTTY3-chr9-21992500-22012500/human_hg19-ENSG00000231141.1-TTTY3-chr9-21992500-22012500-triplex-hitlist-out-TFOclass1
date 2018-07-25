@@ -1,0 +1,22 @@
+browser position chr9:1-22012429
+browser hide all
+browser pack refGene encodeRegions
+browser full altGraph
+#	300 base wide bar gragh, ausoScale is on by default == graphing
+#	limits will dynamically change to always show full range of data
+#	in viewing window, priority = 20 position this as the second graph
+#	Note, zero-relative, half-open coordinate system in use for bedGraph format
+track type=bedGraph name='TTTY3 (1)' description='15-50' visibility=full color=200,100,0 altColor=0,100,200 priority=20
+chr9	21995347	21995401	1
+chr9	21995401	21995646	0
+chr9	21995646	21995721	1
+chr9	21995721	21998837	0
+chr9	21998837	21998894	1
+chr9	21998894	22005844	0
+chr9	22005844	22005908	1
+chr9	22005908	22009043	0
+chr9	22009043	22009117	1
+chr9	22009117	22011544	0
+chr9	22011544	22011600	1
+chr9	22011600	22012302	0
+chr9	22012302	22012379	1
